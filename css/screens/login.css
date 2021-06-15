@@ -1,5 +1,5 @@
 .welcome-header {
-  margin: 90px 0px;
+  margin: 70px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
 }
 
 .welcome-header__text {
-  font-size: 18px;
+  font-size: 17px;
   color: gray;
   opacity: 0.8;
 }
@@ -38,7 +38,7 @@
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 #login-form input:focus {
@@ -47,6 +47,7 @@
 
 #login-form input[type="submit"] {
   background-color: rgba(0, 0, 0, 0.04);
+  font-size: 15px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -55,5 +56,5 @@
   text-decoration: none;
   color: rgba(0, 0, 0, 0.7);
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
 }
